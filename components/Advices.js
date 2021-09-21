@@ -35,9 +35,8 @@ const Advices = ({advice}) => {
            <Row>
                 <Col span={12}>
                     <Title>
-                        <ContTitle key={advice.slip.id}>
-                        <span>{advice.slip.id} </span>    
-                        <span> {advice.slip.advice} </span>
+                        <ContTitle >
+                        no juzgues un libro por su portada 
                         </ContTitle>
                     </Title>
  
