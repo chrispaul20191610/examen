@@ -1,5 +1,8 @@
 # Examen-Final
 
+deploy en vercel: link https://examen-mauve.vercel.app/
+repositorio en vercel: Link https://github.com/chrispaul20191610/examen.git
+
 * Escribir una aplicación de React que consuma los datos de la api https://api.adviceslip.com/. Esta api tiene los siguientes endpoints disponibles:
 
 ```
