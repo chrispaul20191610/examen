@@ -35,7 +35,10 @@ const Advices = ({advice}) => {
            <Row>
                 <Col span={12}>
                     <Title>
-                        <ContTitle> Consejo Del Dia  </ContTitle>
+                        <ContTitle key={advice.slip.id}>
+                        <span>{advice.slip.id} </span>    
+                        <span> {advice.slip.advice} </span>
+                        </ContTitle>
                     </Title>
  
 
@@ -109,7 +112,7 @@ export async function getStaticProps (context) {
     try{
         const res = await axios.get("https://api.adviceslip.com/advice")
         console.log("res",res);
-        advice=advice.data
+        advice=res.data;
         
     }
     catch (error){
