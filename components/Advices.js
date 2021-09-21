@@ -69,7 +69,7 @@ const Advices = ({advice}) => {
                 </Title>
 
                 <AdviceContent>
-                        si ella no te llama no le impoirtas 
+                        lista de consejos favoritos  
                     </AdviceContent>
                 </Col>
             </Row> 
